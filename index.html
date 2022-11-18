@@ -36,7 +36,7 @@
                 трассы!
             </div>
             <div class="main-action">
-                <button class="button">Посмотреть автомобили</button>
+                <button class="button" id="main-action">Посмотреть автомобили</button>
             </div>
         </div>
     </div>
@@ -68,7 +68,7 @@
                     </div>
                 </div>
                 <div class="car-item-action">
-                    <button class="button">ЗАбронировать</button>
+                    <button class="button car-button">ЗАбронировать</button>
                 </div>
             </div>
             <div class="car-item">
@@ -94,7 +94,7 @@
                     </div>
                 </div>
                 <div class="car-item-action">
-                    <button class="button">ЗАбронировать</button>
+                    <button class="button car-button">ЗАбронировать</button>
                 </div>
             </div>
             <div class="car-item">
@@ -120,7 +120,7 @@
                     </div>
                 </div>
                 <div class="car-item-action">
-                    <button class="button">ЗАбронировать</button>
+                    <button class="button car-button">ЗАбронировать</button>
                 </div>
             </div>
             <div class="car-item">
@@ -146,7 +146,7 @@
                     </div>
                 </div>
                 <div class="car-item-action">
-                    <button class="button">ЗАбронировать</button>
+                    <button class="button car-button">ЗАбронировать</button>
                 </div>
             </div>
             <div class="car-item">
@@ -172,7 +172,7 @@
                     </div>
                 </div>
                 <div class="car-item-action">
-                    <button class="button">ЗАбронировать</button>
+                    <button class="button car-button">ЗАбронировать</button>
                 </div>
             </div>
             <div class="car-item">
@@ -198,7 +198,7 @@
                     </div>
                 </div>
                 <div class="car-item-action">
-                    <button class="button">ЗАбронировать</button>
+                    <button class="button car-button">ЗАбронировать</button>
                 </div>
             </div>
             <div class="car-item">
@@ -224,7 +224,7 @@
                     </div>
                 </div>
                 <div class="car-item-action">
-                    <button class="button">ЗАбронировать</button>
+                    <button class="button car-button">ЗАбронировать</button>
                 </div>
             </div>
             <div class="car-item">
@@ -250,7 +250,7 @@
                     </div>
                 </div>
                 <div class="car-item-action">
-                    <button class="button">ЗАбронировать</button>
+                    <button class="button car-button">ЗАбронировать</button>
                 </div>
             </div>
             <div class="car-item">
@@ -276,7 +276,7 @@
                     </div>
                 </div>
                 <div class="car-item-action">
-                    <button class="button">ЗАбронировать</button>
+                    <button class="button car-button">ЗАбронировать</button>
                 </div>
             </div>
         </div>
@@ -289,10 +289,10 @@
             Заполните данные, и мы перезвоним вам для уточнения всех деталей бронирования
         </div>
         <form action="" class="price-form">
-            <input type="text" class="price-input" placeholder="Ваше имя">
-            <input type="text" class="price-input" placeholder="Ваш телефон">
-            <input type="text" class="price-input" placeholder="Автомобиль, который вас интересует">
-            <button class="button">Узнать цену</button>
+            <input type="text" class="price-input" id="name" placeholder="Ваше имя">
+            <input type="text" class="price-input" id="phone" placeholder="Ваш телефон">
+            <input type="text" class="price-input" id="car" placeholder="Автомобиль, который вас интересует">
+            <button class="button" id="price-action" type="button">Узнать цену</button>
         </form>
         <img src="images/rolls.png" class="price-image" alt="rolls">
     </div>
@@ -305,5 +305,6 @@
         <div class="right">Все права защищены</div>
     </div>
 </footer>
+<script src="scripts/script.js"></script>
 </body>
 </html>
